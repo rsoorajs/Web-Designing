@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Java script color change</title>
+<link href="style.css" type="text/css" >
+</head>
+<body>
+<style type="text/css">
+#screen{
+height:300px;
+width:300px;
+border:solid 1px;
+</style>
+<div id="screen" >
+
+</div>
+<center>
+<br><br>
+<button onclick="color('red')">RED</button>
+<button onclick="color('blue')">BLUE</button>
+<button onclick="color('green')">GREEN</button>
+<button onclick="color('yellow')">YELLOW</button>
+
+<br><br>
+<button onclick="lightshow()">Light Show</button>
+
+</center>
+<script type="text/javascript">
+function color(bg){
+document.getElementById("screen").style.background=bg
+}
+
+const sleep = (milliseconds) => {
+  return new Promise(resolve => setTimeout(resolve, milliseconds))
+}
+function lightshow(){
+for(var i=0;i<9999;i++){
+sleep(500).then(() => {
+document.getElementById("screen").style.background="green"})
+sleep(500).then(() => {
+document.getElementById("screen").style.background="red"})
+sleep(500).then(() => {
+document.getElementById("screen").style.background="yellow"})
+sleep(500).then(() => {
+document.getElementById("screen").style.background="blue"})
+sleep(500).then(() => {
+document.getElementById("screen").style.background="orange"})
+sleep(500).then(() => {
+document.getElementById("screen").style.background="cyan"})
+sleep(500).then(() => {
+document.getElementById("screen").style.background="violet"})
+sleep(500).then(() => {
+document.getElementById("screen").style.background="indigo"})
+
+
+
+
+}
+}
+</script>
+</body>
+</html>
