@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div class="root-div">
+        <div class="calculator">
+            <div class="output">
+            <input type="text" id="screen">
+            </div> 
+            <div class="btnmaindiv">
+           <div class="btn1">
+               <button onclick="butact('7')" class="buttons">7</button>
+               <button onclick="butact('8')" class="buttons">8</button>
+               <button onclick="butact('9')" class="buttons">9</button>
+               <button onclick="butact('/')" class="buttons">/</button>
+
+           </div>
+           <div class="btn2">
+            <button onclick="butact('4')" class="buttons">4</button>
+            <button onclick="butact('5')" class="buttons">5</button>
+            <button onclick="butact('6')" class="buttons">6</button>
+            <button onclick="butact('*')" class="buttons">*</button>
+        </div>
+        <div class="btn3">
+            <button onclick="butact('1')" class="buttons">1</button>
+            <button onclick="butact('2')" class="buttons">2</button>
+            <button onclick="butact('3')" class="buttons">3</button>
+            <button onclick="butact('-')" class="buttons">-</button>
+        </div>
+        <div class="btn4">
+            <button onclick="butact('0')" class="buttons">0</button>
+            <button onclick="butact('.')" class="buttons">.</button>
+            <button onclick="res()" class="buttons">=</button>
+            <button onclick="butact('+')" class="buttons">+</button>
+        </div>
+        <div class="btn5">
+            <button onclick="clearbtn()" class="buttons">C</button>
+            <button onclick="clearbtn()" class="buttons">AC</button>
+            <button onclick="butact('%')" class="buttons">%</button>
+            <button onclick="butact('√')" class="buttons">√</button>
+        </div>
+
+        </div>
+        </div>
+    </div>
+</body>
+</html>
