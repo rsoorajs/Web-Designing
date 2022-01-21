@@ -1,0 +1,40 @@
+.calculator{
+    height: 550px;
+    width: 395px;
+    background-color: gray;
+    margin-left: 350px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+#screen{
+    height: 70px;
+    width: 320px;
+    margin-left: 35px;
+    margin-top: 15px;
+    pointer-events: none;
+}
+.buttons{
+    height: 75px;
+    width: 75px;
+    font-size: 20px;
+}
+.btn1{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.btn2{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.btn3{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.btn4{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.btn5{
+    margin-left: 40px;
+    margin-top: 15px;
+}
