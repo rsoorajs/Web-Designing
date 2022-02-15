@@ -1,3 +1,3 @@
-# My sample Html<Css,Java Script Based Projects !
+# My sample Html,Css,Java Script Based Projects !
 
 #Easy to use for Beginners
