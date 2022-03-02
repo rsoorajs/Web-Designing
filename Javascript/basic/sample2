@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1 class="soor"></h1>
+
+<script type="text/javascript">
+let fetch = document.querySelector(".soor")
+let name = "My name is Sooraj";
+fetch.innerText = `${name}`
+
+</script>
+</body>
+</html>
